@@ -2,6 +2,13 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-image: url("../images/desktop.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
 .top-nav {
 	background: #B0C4E8;
 }
@@ -17,6 +24,22 @@
 	cursor: pointer;
 }
 
+.top-nav:hover {
+	background-color: ;
+	transition: .5s;
+	filter: brightness(60%);
+}
+
 .nav-list-collapsed {
 	display: none;
+}
+
+.brand-link {
+	color: #FFF2EE;
+	text-decoration: none;
+}
+
+.brand-link:hover {
+	transition: .5s;
+	filter: brightness(60%);
 }
