@@ -2,6 +2,21 @@
 	box-sizing: border-box;
 }
 
-body {
-	background-color: ;
+.top-nav {
+	background: #ccc;
+}
+
+.navbar {
+	display: flex;
+	font-size: 30px;
+	padding: 5px 20px;
+}
+
+.nav-toggle {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.nav-list-collapsed {
+	display: none;
 }
